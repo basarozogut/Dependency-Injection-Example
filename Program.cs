@@ -83,7 +83,7 @@ namespace DependencyInjection
                 }
             }
 
-            throw new Exception("Dependency mapping not found!");
+            throw new Exception($"Dependency mapping not for type: {abstractType.Name}!");
         }
     }
 }
